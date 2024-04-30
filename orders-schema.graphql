@@ -33,6 +33,7 @@ type User @key(fields: "id", resolvable: false) {
   id: ID!
 }
 
+
 type ProductVariant @key(fields: "id", resolvable: false) {
   id: ID!
 }
